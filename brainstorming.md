@@ -11,6 +11,7 @@
 - plain HTML could work, but would require some deployment for any case of sharing. There are reasons other than printing for PDF being very relevant and LaTeX continued use. This note taking project could however also be limited to data capture and/or data preparation (of such data captured).
 - Being able to include time as time (being able to calculate, not just having strings somewhere) keeps coming up. And for the games application it includes points in time not well covered in many IT systems, including both before 1970-01-01 and 1900-01-01. To be fair, a Gregorian Calendar date a few thousand years back might work in Java (does it), but does not make that much sense (including the earth rotation slow down).
 - Maybe I should make a PostgreSQL experiment asap, and consider locking it in with that hard, and do the minimum around it (reporting to XeLaTeX with some general purpose programming language, and rendering in XeLaTeX to PDF). It would however be a heavy component, that I am not sure I want to have if I can get by without any.
+- For the games use case, not being author, it might not be a good idea to do anything! It might just identify inconsistencies in the writing instead of being a useful players tool! Maybe just using game system character tools to be able to ask the GM is preferable in the end?
 
 # Conclustions
 - For analytic work the events/ notes have to be accessible with graph theory methods. So, that means the real core of this project should be creating notes in graphs, and modifying the graphs.
